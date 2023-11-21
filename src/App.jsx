@@ -1,11 +1,14 @@
-import "./App.css";
+import "./index.css";
+import ParticleBackground from "./components/ParticleBackground";
+import Navbar from "./components/Navbar";
+import Slider from "./components/Slider";
 
 function App() {
-  
-
   return (
     <>
-      <div>Hello</div>
+      <ParticleBackground />
+      <Navbar/>
+      <Slider/>
     </>
   );
 }
