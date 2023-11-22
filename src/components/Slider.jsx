@@ -1,13 +1,14 @@
-import React from 'react'
+import React from "react";
+import ImageSection from "./ImageSection";
+import Sample from "./Sample";
+import { Samples } from "./Samples";
 
 export default function Slider() {
   return (
     <>
-    <div className='md:container md:mx-auto flex justify-center items-center mt-4 my-auto min-h-screen bg-white'>
-      <div className='bg-black  ' >
-          inner
+      <div className=" m-5   mt-4  flex justify-center min-h-fit">
+        <Samples/>
       </div>
-    </div>
     </>
-  )
+  );
 }
