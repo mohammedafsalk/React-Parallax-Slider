@@ -1,6 +1,4 @@
 import React from "react";
-import ImageSection from "./ImageSection";
-import Sample from "./Sample";
 import { Samples } from "./Samples";
 
 export default function Slider() {

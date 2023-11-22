@@ -44,7 +44,7 @@ export const Samples = () => {
       <AnimatePresence initial={false} custom={direction}>
         <motion.img
           key={page}
-          className="rounded px-2"
+          className="rounded-xl px-2"
           src={images[imageIndex]}
           custom={direction}
           variants={variants}
